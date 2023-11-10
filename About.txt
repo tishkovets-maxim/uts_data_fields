@@ -2,8 +2,8 @@
 
 fields_per_src.csv
 fields.csv
+fields_simple.csv
 sources.csv
-
 
 
 1. fields_per_src.csv
@@ -34,3 +34,11 @@ file_period	дробность обновления
 update_period	частота обновления
 
 Другие свои поля к этой таблице буду хранить уже отдельно
+
+
+4. fields_simple.csv
+(Временная?) таблица для упрощенного вноса полей - кит -> ру
+
+src
+field_ch
+field_ru
