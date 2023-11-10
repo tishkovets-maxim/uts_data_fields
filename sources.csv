@@ -1,0 +1,4 @@
+﻿id,source,src_platform,link,interface path,file_period,update_period,Note
+1,WDT_main_shipment,WDT,,,1m,1d,
+2,WDT_main_order,WDT,,,1m,1d,
+3,TMS_sales,TMS,https://web.txcs.tmall.com/?frameUrl=https%3A%2F%2Fweb.txcs.tmall.com%2Fpages%2Fchaoshi%2Fcommon_tj_item,\верх\天机\лево\商品分析\верх\商品信息查询,1m,1d,

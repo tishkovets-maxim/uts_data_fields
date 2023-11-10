@@ -1,0 +1,36 @@
+﻿https://github.com/tishkovets-maxim/uts_data_fields.git
+
+fields_per_src.csv
+fields.csv
+sources.csv
+
+
+
+1. fields_per_src.csv
+Приведение разнобоя имен к стандартным вариантам
+
+source	источник (см. таб. источников)
+field_src	имя поля в источнике
+field_en	стандартное имя поля (см. таб. полей)
+used	нужно ли брать это поле (для выгрузок с кучей ненужных полей)
+
+
+2. fields.csv
+
+field_en	стандартное имя
+field_ru
+field_ch
+type_sql	тип для БД (и ориентировочно - для других целей)
+
+
+
+3. sources.csv
+
+source
+src_platform	откуда берется источник (не какую информацию содержит)
+link
+interface path
+file_period	дробность обновления
+update_period	частота обновления
+
+Другие свои поля к этой таблице буду хранить уже отдельно
